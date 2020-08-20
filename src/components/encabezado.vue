@@ -25,6 +25,7 @@
               <strong>Sign up</strong>
             </a>
             <a class="button is-light">Log in</a>
+            
           </div>
         </b-navbar-item>
       </template>
