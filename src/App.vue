@@ -1,16 +1,22 @@
 <template>
-  <div id="app">
-    
+  <div>
+    <encabezado />
+    <cuerpoContenido />
+    <piePagina />
   </div>
 </template>
 
 <script>
-
+import encabezado from "./components/encabezado"
+import cuerpoContenido from "./components/cuerpoContenido"
+import piePagina from "./components/piePagina"
 
 export default {
   name: "App",
   components: {
-    
+    encabezado,
+    cuerpoContenido,
+    piePagina
   }
 };
 </script>
